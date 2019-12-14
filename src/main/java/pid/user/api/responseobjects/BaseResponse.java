@@ -1,12 +1,10 @@
 package pid.user.api.responseobjects;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class BaseResponse {
     private int httpStatus;
-    public void setHttpStatus(int status){
-        httpStatus = status;
-    }
-
-    public int getHttpStatus(){
-        return httpStatus;
-    }
 }
